@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<%--
+  Created by IntelliJ IDEA.
+  User: jmotl
+  Date: 13-Nov-19
+  Time: 5:37 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="WEB-INF/resources/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/theme.css">
 </head>
 <body>
 <div class="top-container">
@@ -17,7 +23,7 @@
                 <h1>D&D Online Store</h1>
             </td>
             <td>
-                <h3><a href="home.html">Home</a></h3>
+                <h3><a href="index.html">Home</a></h3>
             </td>
             <td>
                 <h3><a href="itemList.html">Items</a></h3>
@@ -38,11 +44,13 @@
     <a href="#">Contact</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-<div id="Main" CLASS="Main">
-    <ul>
-        <li>Longsword <a href="Item%20Details.html">Learn More</a></li>
-    </ul>
-</div>
+<main>
+    <h3>Welcome to the D&D Online store</h3>
+    <p>The header will stick to the top when you reach its scroll position.</p>
+</main>
+<footer>
+
+</footer>
 </body>
-<script src="WEB-INF/resources/js/controller.js"></script>
+<script src="resources/js/controller.js"></script>
 </html>
